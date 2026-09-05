@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- FlashLink 闪连 App 图标 (矢量源文件)
+     设计: 倾斜白色闪电 + 尾部融合两道平行弧形 Wi-Fi 信号
+     风格: 极简扁平, 纯色鸿蒙蓝 #007AFF 背景, 无阴影无渐变
+     画布: 1024x1024, 中心构图, 边缘留白均匀
+     说明: 本文件为完整图标(蓝底+符号)。
+           鸿蒙分层图标拆分方式:
+           - background 层 = 仅 <rect> (纯色 #007AFF)
+           - foreground 层 = 去掉 <rect> 后的白色符号 (透明底)
+           符号整体位于中央 66% 安全区内, 不会被系统圆角蒙版裁切。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- 背景: 纯色鸿蒙蓝 -->
+  <rect width="1024" height="1024" fill="#007AFF"/>
+  <g fill="#FFFFFF">
+    <!-- 倾斜闪电 (头部右上 -> 尖端左下, 整体倾斜约 21°) -->
+    <polygon points="645.8,203.0 438.5,507.0 538.0,496.5 489.7,783.7 715.2,477.9 613.2,488.6"/>
+    <!-- 外弧 Wi-Fi 信号 (∩ 形, 圆心 498,862.6, 半径 201.3, 弧度 200°..340°, 圆头) -->
+    <path d="M 308.8 793.8 A 201.3 201.3 0 0 1 687.2 793.8" fill="none" stroke="#FFFFFF" stroke-width="41.5" stroke-linecap="round"/>
+    <!-- 内弧 Wi-Fi 信号 (同心, 半径 122) -->
+    <path d="M 383.4 820.9 A 122 122 0 0 1 612.6 820.9" fill="none" stroke="#FFFFFF" stroke-width="41.5" stroke-linecap="round"/>
+  </g>
+</svg>

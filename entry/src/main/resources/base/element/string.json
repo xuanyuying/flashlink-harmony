@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "EntryAbility_label",
+      "value": "闪连"
+    },
+    {
+      "name": "module_desc",
+      "value": "基于局域网的文件快速传输工具"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "接收系统分享文件，通过局域网发送至PC端"
+    },
+    {
+      "name": "permission_read_media_reason",
+      "value": "用于读取分享的图片、视频、音频文件以进行传输"
+    },
+    {
+      "name": "permission_read_document_reason",
+      "value": "用于读取分享的文档文件以进行传输"
+    },
+    {
+      "name": "SET_SYSTEMSHARE_APPLAUNCHTRUSTLIST_reason",
+      "value": "测试闪连软件在华为手机与非华为电脑之间传输文件功能"
+    }
+  ]
+}

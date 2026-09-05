@@ -1,0 +1,30 @@
+/node_modules
+/oh_modules
+/local.properties
+/.idea
+**/build
+/.hvigor
+.cxx
+/.clangd
+/.clang-format
+/.clang-tidy
+**/.test
+/.appanalyzer
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 编译产物
+*.hap
+!release/*.hap
+*.app
+*.so
+
+# 签名信息（含敏感密钥）
+**/*.p12
+**/*.cer
+**/*.p7b
+
+# AI 辅助工具子模块
+/.codegenie
